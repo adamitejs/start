@@ -9,8 +9,8 @@
     "database": "node bin/database.js"
   },
   "dependencies": {
-    "@adamite/api": "https://github.com/adamite-framework/api.git",
-    "@adamite/sdk": "https://github.com/adamite-framework/sdk.git",
+    "@adamite/api": "https://github.com/adamitejs/api.git",
+    "@adamite/sdk": "https://github.com/adamitejs/sdk.git",
     "@adamite/service-database": "https://github.com/adamite-framework/service-database.git",
     "concurrently": "^4.1.0"
   }
