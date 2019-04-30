@@ -10,6 +10,7 @@ module.exports = {
   },
 
   "database": {
+    "adapter": require('@adamite/service-database/adapters/rethinkdb'),
     "rules": require('./database/rules')
   }
 }
