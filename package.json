@@ -4,14 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"npm:api\" \"npm:database\"",
+    "start": "concurrently \"npm:api\" \"npm:database\" \"npm:auth\"",
     "api": "node bin/api.js",
-    "database": "node bin/database.js"
+    "database": "node bin/database.js",
+    "auth": "node bin/auth.js"
   },
   "dependencies": {
     "@adamite/api": "https://github.com/adamitejs/api.git",
     "@adamite/sdk": "https://github.com/adamitejs/sdk.git",
-    "@adamite/service-database": "https://github.com/adamite-framework/service-database.git",
+    "@adamite/service-auth": "https://github.com/adamitejs/service-auth.git",
+    "@adamite/service-database": "https://github.com/adamitejs/service-database.git",
     "concurrently": "^4.1.0"
   }
 }

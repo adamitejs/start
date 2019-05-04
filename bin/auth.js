@@ -1,0 +1,1 @@
+require('@adamite/service-auth')(require('../adamite.js'));
