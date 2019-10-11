@@ -1,0 +1,18 @@
+version: "3"
+services:
+  adamite:
+    build: .
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+      - "9002:9002"
+      - "9003:9003"
+    volumes:
+      - .:/code
+      - logvolume01:/var/log
+    links:
+      - rethinkdb
+  rethinkdb:
+    image: rethinkdb
+volumes:
+  logvolume01: {}
