@@ -1,29 +1,34 @@
 module.exports = {
-  name: "adamite-hello-world",
-
   api: {
-    // TODO: CHANGE THIS!
-    secret: "abcd1234==",
-
-    admins: {
-      root: "1234"
-    }
-  },
-
-  auth: {
     // TODO: CHANGE THIS!
     secret: "abcd1234=="
   },
 
-  database: {
-    adapter: require("@adamite/service-database/adapters/rethinkdb"),
-    rules: require("./database/rules")
-  },
+  services: {
+    functions: {
+      service: require("@adamite/service-functions"),
+      config: {
+        root: require("./functions"),
+        sdk: {}
+      }
+    },
 
-  functions: {
-    root: require("./functions"),
-    sdk: {
-      // TODO: Add your SDK configuration here!
+    database: {
+      service: require("@adamite/service-database"),
+      config: {
+        adapter: new require("@adamite/service-database/adapters/rethinkdb")({
+          host: "localhost",
+          port: 28015
+        }),
+        rules: require("./database/rules")
+      }
+    },
+
+    auth: {
+      service: require("@adamite/service-auth"),
+      config: {
+        secret: "abcd1234=="
+      }
     }
   }
 };

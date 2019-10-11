@@ -4,18 +4,19 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"npm:api\" \"npm:database\" \"npm:auth\" \"npm:functions\"",
-    "api": "node bin/api.js",
-    "database": "node bin/database.js",
-    "auth": "node bin/auth.js",
-    "functions": "node bin/functions.js"
+    "start": "adamite start",
+    "start:auth": "adamite start auth",
+    "start:database": "adamite start database",
+    "start:functions": "adamite start functions",
+    "start:api": "adamite start api"
   },
   "dependencies": {
     "@adamite/api": "^0.1.0-beta.0",
+    "@adamite/cli": "^0.1.0-beta.0",
     "@adamite/sdk": "^0.1.0-beta.0",
-    "@adamite/service-auth": "^0.1.0-beta.0",
-    "@adamite/service-database": "^0.1.0-beta.0",
-    "@adamite/service-functions": "^0.1.0-beta.1",
+    "@adamite/service-auth": "^0.1.0-beta.1",
+    "@adamite/service-database": "^0.1.0-beta.1",
+    "@adamite/service-functions": "^0.1.0-beta.3",
     "concurrently": "^4.1.0"
   }
 }
