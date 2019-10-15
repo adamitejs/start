@@ -87,13 +87,14 @@
     traverse "^0.6.6"
     uuid "^3.3.2"
 
-"@adamite/service-functions@^0.1.0-beta.4":
-  version "0.1.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@adamite/service-functions/-/service-functions-0.1.0-beta.4.tgz#fae44034c682ebbbbc76044ebc5cc934bc82dbf2"
-  integrity sha512-m2R1++A5UfTyd8d8CqgO9Wex16uvsPKYvVYh83zNYoWbZaBBO3R7E0ar858S8hBgAwKVBesp5lYNp+0S4ynu1Q==
+"@adamite/service-functions@^0.1.0-beta.5":
+  version "0.1.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@adamite/service-functions/-/service-functions-0.1.0-beta.5.tgz#d238beccdd72561589564ead1e76dfab541fbc6f"
+  integrity sha512-SVpoQxoSR2SCeoTSlb1+LsY0a+HSEO+H1KbX+9dfwxJBVQSplyXR/d+/DbNraVYCuAOrajCwKfMuoy55SxEdPA==
   dependencies:
     "@adamite/relay-server" "^0.1.0-beta.1"
     "@adamite/sdk" "^0.1.0-beta.0"
+    chalk "^2.4.2"
     node-cron "^2.0.3"
 
 "@oclif/command@^1", "@oclif/command@^1.5.13":
