@@ -75,10 +75,10 @@
     lowdb "^1.0.0"
     uuid "^3.3.2"
 
-"@adamite/service-database@^0.1.0-beta.2":
-  version "0.1.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@adamite/service-database/-/service-database-0.1.0-beta.2.tgz#486938e66dbf472d2e010372b9e7323398e2997f"
-  integrity sha512-qdJTdTaTy/wL+HWkC9JGMrOiET09Js4aiafw05GbzqGauVaQqKStTH8o2rY+pYym/3MvvqHlVlyA2wqSSIRiQw==
+"@adamite/service-database@^0.1.0-beta.3":
+  version "0.1.0-beta.3"
+  resolved "https://registry.yarnpkg.com/@adamite/service-database/-/service-database-0.1.0-beta.3.tgz#2fa07bf8485ae4a62793f147427303d7b2193c34"
+  integrity sha512-QVjx8CE6KEkHfpD6X16NMXV+mEBnPMyuAJ269C7ODYZLbqQDtlBIjKPh/RvvpNjQOV9ggffy83jYlX4bFOaV/g==
   dependencies:
     "@adamite/relay-server" "^0.1.0-beta.1"
     "@adamite/sdk" "^0.1.0-beta.0"
