@@ -17,10 +17,10 @@
     uuid "^3.3.2"
     vorpal "^1.12.0"
 
-"@adamite/cli@^0.1.0-beta.1":
-  version "0.1.0-beta.1"
-  resolved "https://registry.yarnpkg.com/@adamite/cli/-/cli-0.1.0-beta.1.tgz#65b2f2a9673e27d5396502e6963cefbeb87c0a33"
-  integrity sha512-mL6T0xf6W11BUo4KeTjNWwLlabNLVUa7f2f6/wDQnHs5+AmQyucNBcq3dA4Erfaoq4meaD0bu/XGq18UIfKPiQ==
+"@adamite/cli@^0.1.0-beta.2":
+  version "0.1.0-beta.2"
+  resolved "https://registry.yarnpkg.com/@adamite/cli/-/cli-0.1.0-beta.2.tgz#cdd01fa59bed6af6707221d90d2c3368a8f4ea52"
+  integrity sha512-en3UtaewSYYcHYCHPdNKwTTI+/3m5OAp/d13/5GHsYU2GD9XwC4LMozX1D39JkRS21ZYgqkDlA/Oo+OVFFOPiQ==
   dependencies:
     "@oclif/command" "^1"
     "@oclif/config" "^1"
@@ -75,10 +75,10 @@
     lowdb "^1.0.0"
     uuid "^3.3.2"
 
-"@adamite/service-database@^0.1.0-beta.3":
-  version "0.1.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@adamite/service-database/-/service-database-0.1.0-beta.3.tgz#2fa07bf8485ae4a62793f147427303d7b2193c34"
-  integrity sha512-QVjx8CE6KEkHfpD6X16NMXV+mEBnPMyuAJ269C7ODYZLbqQDtlBIjKPh/RvvpNjQOV9ggffy83jYlX4bFOaV/g==
+"@adamite/service-database@^0.1.0-beta.4":
+  version "0.1.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@adamite/service-database/-/service-database-0.1.0-beta.4.tgz#dd8e9b6772a605188fc666153acef470150c65e5"
+  integrity sha512-hWxVQOUifhdnhXvrWAEXqJDgzRaL3y5D4yJdz4ggAr7VwQtyDt94jgq2rN4uxqbVMnxF68x8cYeeQRI++/z//A==
   dependencies:
     "@adamite/relay-server" "^0.1.0-beta.1"
     "@adamite/sdk" "^0.1.0-beta.0"
@@ -87,13 +87,14 @@
     traverse "^0.6.6"
     uuid "^3.3.2"
 
-"@adamite/service-functions@^0.1.0-beta.4":
-  version "0.1.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@adamite/service-functions/-/service-functions-0.1.0-beta.4.tgz#fae44034c682ebbbbc76044ebc5cc934bc82dbf2"
-  integrity sha512-m2R1++A5UfTyd8d8CqgO9Wex16uvsPKYvVYh83zNYoWbZaBBO3R7E0ar858S8hBgAwKVBesp5lYNp+0S4ynu1Q==
+"@adamite/service-functions@^0.1.0-beta.5":
+  version "0.1.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@adamite/service-functions/-/service-functions-0.1.0-beta.5.tgz#d238beccdd72561589564ead1e76dfab541fbc6f"
+  integrity sha512-SVpoQxoSR2SCeoTSlb1+LsY0a+HSEO+H1KbX+9dfwxJBVQSplyXR/d+/DbNraVYCuAOrajCwKfMuoy55SxEdPA==
   dependencies:
     "@adamite/relay-server" "^0.1.0-beta.1"
     "@adamite/sdk" "^0.1.0-beta.0"
+    chalk "^2.4.2"
     node-cron "^2.0.3"
 
 "@oclif/command@^1", "@oclif/command@^1.5.13":

@@ -18,7 +18,8 @@ module.exports = {
       config: {
         adapter: new require("@adamite/service-database/adapters/rethinkdb")({
           host: "localhost",
-          port: 28015
+          port: 28015,
+          defaultDb: "default"
         }),
         rules: require("./database/rules")
       }
