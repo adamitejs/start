@@ -14,8 +14,8 @@
     "@adamite/api": "^0.1.0-beta.1",
     "@adamite/cli": "^0.1.0-beta.2",
     "@adamite/sdk": "^0.1.0-beta.0",
-    "@adamite/service-auth": "^0.1.0-beta.3",
-    "@adamite/service-database": "^0.1.0-beta.5",
-    "@adamite/service-functions": "^0.1.0-beta.6"
+    "@adamite/service-auth": "^0.1.0-beta.4",
+    "@adamite/service-database": "^0.1.0-beta.6",
+    "@adamite/service-functions": "^0.1.0-beta.7"
   }
 }
