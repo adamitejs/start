@@ -1,5 +1,7 @@
+const { InvokableFunction } = require("@adamite/service-functions");
+
 module.exports = {
-  helloWorld() {
-    return "hello world";
-  }
+  helloWorld: new InvokableFunction(() => {
+    console.log("Hello World");
+  })
 };
