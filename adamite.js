@@ -1,21 +1,14 @@
 module.exports = {
   api: {
-    // TODO: CHANGE THIS!
-    secret: "abcd1234=="
+    key: require("./data/api.json").key,
+    port: process.env.PORT ? parseInt(process.env.PORT) : 9000
   },
 
-  services: {
-    functions: {
-      service: require("@adamite/service-functions"),
-      config: {
-        root: require("./functions"),
-        sdk: {}
-      }
-    },
-
-    database: {
+  services: [
+    {
+      name: "database",
       service: require("@adamite/service-database"),
-      config: {
+      options: {
         adapter: new require("@adamite/service-database/adapters/rethinkdb")({
           host: "localhost",
           port: 28015,
@@ -24,12 +17,20 @@ module.exports = {
         rules: require("./database/rules")
       }
     },
-
-    auth: {
+    {
+      name: "auth",
       service: require("@adamite/service-auth"),
-      config: {
+      options: {
         secret: "abcd1234=="
       }
+    },
+    {
+      name: "functions",
+      service: require("@adamite/service-functions"),
+      options: {
+        root: require("./functions"),
+        sdk: {}
+      }
     }
-  }
+  ]
 };

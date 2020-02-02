@@ -18,11 +18,12 @@
     uuid "^3.3.2"
     vorpal "^1.12.0"
 
-"@adamite/cli@^0.1.0-beta.2":
-  version "0.1.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@adamite/cli/-/cli-0.1.0-beta.2.tgz#cdd01fa59bed6af6707221d90d2c3368a8f4ea52"
-  integrity sha512-en3UtaewSYYcHYCHPdNKwTTI+/3m5OAp/d13/5GHsYU2GD9XwC4LMozX1D39JkRS21ZYgqkDlA/Oo+OVFFOPiQ==
+"@adamite/cli@^0.2.0-beta.1":
+  version "0.2.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@adamite/cli/-/cli-0.2.0-beta.1.tgz#0e732e070387fbca65039545ba029ffc5644b1da"
+  integrity sha512-nUJO6N87vAygUd1tAW1ToV1FJvhjhRp+LeZJ3yGGF6YbGwQBNRjaIkkCRS0Dj2JITvclFn3/vGPRopZ2WE20Iw==
   dependencies:
+    "@adamite/relay-server" "^1.0.0-beta.0"
     "@oclif/command" "^1"
     "@oclif/config" "^1"
     "@oclif/plugin-help" "^2"
@@ -32,7 +33,9 @@
     concurrently "^5.0.0"
     download "^7.1.0"
     inquirer "^6.5.0"
+    root-require "^0.3.1"
     tslib "^1"
+    uuid "^3.4.0"
 
 "@adamite/relay-client@latest":
   version "0.1.0-beta.0"
@@ -43,10 +46,10 @@
     socket.io-client "^2.2.0"
     uws "10.148.1"
 
-"@adamite/relay-server@^0.1.0-beta.3":
-  version "0.1.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@adamite/relay-server/-/relay-server-0.1.0-beta.3.tgz#916ba12c1b5085dc6f4e377f52689ef28e218c0d"
-  integrity sha512-OXEwPCDaBVqLafYxh33lfgfck4OHu+ZY3j27nqRaazahoUMrchZGBTPGlVi8W/WWHEiiCRsJT9GLXswfNi31gA==
+"@adamite/relay-server@^1.0.0-beta.0":
+  version "1.0.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@adamite/relay-server/-/relay-server-1.0.0-beta.0.tgz#c9ae628cc77baf1fcd9d82f30fe21e101513a8ca"
+  integrity sha512-3lMBXBfp0n7DzXT1acmxHhNXJwtyiEDiK4OkP9UnU8qe7aJcsfCCEzz5iGEuHuO1LdvcLAWNQMeiHLLZH4cbag==
   dependencies:
     express "^4.17.0"
     jsonwebtoken "^8.5.1"
@@ -64,36 +67,36 @@
     jwt-decode "^2.2.0"
     lodash "^4.17.11"
 
-"@adamite/service-auth@^0.1.0-beta.4":
-  version "0.1.0-beta.4"
-  resolved "https://registry.yarnpkg.com/@adamite/service-auth/-/service-auth-0.1.0-beta.4.tgz#654b338e70dc154bd2d890387f8bf322061fc7c2"
-  integrity sha512-5N/pdP0hnPCA73U+uWwPKFD9J18NhChA87PMW4TJHTlOquEZdaEvYqu5Pxf5hxOHYLoSB5wuREyHOv/rdFF6+A==
+"@adamite/service-auth@^0.1.0-beta.5":
+  version "0.1.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@adamite/service-auth/-/service-auth-0.1.0-beta.5.tgz#4e6bf6ecfaad47304d697df48f8a08293a7d9e0f"
+  integrity sha512-sw1liFqT9Geeqrd59Wg+i/W4MRJrjNrUE4tmvIIkja4qP79ySNIdu975uDo8mQrEjEnSYvAHM3VCqa5On7zTCQ==
   dependencies:
-    "@adamite/relay-server" "^0.1.0-beta.3"
+    "@adamite/relay-server" "^1.0.0-beta.0"
     "@adamite/sdk" "^0.1.0-beta.0"
     bcrypt "^3.0.6"
     jsonwebtoken "^8.5.1"
     lowdb "^1.0.0"
     uuid "^3.3.2"
 
-"@adamite/service-database@^0.1.0-beta.7":
-  version "0.1.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@adamite/service-database/-/service-database-0.1.0-beta.7.tgz#82e8ba6b8f80b607ae228ecfe488ece64d7534d6"
-  integrity sha512-iJ/37mXp5Q2Nhs2YhhVby3RRzCkT1Dy04FV6u2OIEgTpaiTxK6HzKxFFSnTSU4SwmMaQ144GSQhkfsU0oX6Aaw==
+"@adamite/service-database@^0.1.0-beta.9":
+  version "0.1.0-beta.9"
+  resolved "https://registry.yarnpkg.com/@adamite/service-database/-/service-database-0.1.0-beta.9.tgz#2c4019e86e030b84225f8d40b46f6aa2137dbfc3"
+  integrity sha512-7LmPds+Mtiptc2pvPH4AUAA1+okIUoflMhupOJhIQXj5XocWUEgtJnWqJgEPh33ey4IrDVe2fodomTryettGGw==
   dependencies:
-    "@adamite/relay-server" "^0.1.0-beta.3"
+    "@adamite/relay-server" "^1.0.0-beta.0"
     "@adamite/sdk" "^0.1.0-beta.0"
     lodash "^4.17.11"
     rethinkdb "^2.3.3"
     traverse "^0.6.6"
     uuid "^3.3.2"
 
-"@adamite/service-functions@^0.1.0-beta.7":
-  version "0.1.0-beta.7"
-  resolved "https://registry.yarnpkg.com/@adamite/service-functions/-/service-functions-0.1.0-beta.7.tgz#1f4cec31047be4a555b2bc37d4e4fd2f57eea4db"
-  integrity sha512-IWC4PA7UsWNDFJu8FB0GN4Cdb9a8FF2I9PGsBHvSVCuE7+h1F2OM7zH+iVOChkPQM9yq6QH3Nkq6WXuKIMPOXQ==
+"@adamite/service-functions@^0.1.0-beta.8":
+  version "0.1.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@adamite/service-functions/-/service-functions-0.1.0-beta.8.tgz#6c63bf83c0d29ceb940c14fedfd9ad5f0ce8f611"
+  integrity sha512-AugWB1CSfT69SjF1DwLQS8Ng5Bl9CJytQGgNdWW0ggGddwG0+7gIlK72dGogp0wjA+yee6tUd78cO4gVx8555g==
   dependencies:
-    "@adamite/relay-server" "^0.1.0-beta.3"
+    "@adamite/relay-server" "^1.0.0-beta.0"
     "@adamite/sdk" "^0.1.0-beta.0"
     chalk "^2.4.2"
     node-cron "^2.0.3"
@@ -2061,6 +2064,11 @@ p-try@^2.0.0:
   resolved "https://registry.yarnpkg.com/p-try/-/p-try-2.2.0.tgz#cb2868540e313d61de58fafbe35ce9004d5540e6"
   integrity sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==
 
+packpath@~0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/packpath/-/packpath-0.1.0.tgz#a521534222dfeaa9c612ef0c640ec399149ecdd8"
+  integrity sha1-pSFTQiLf6qnGEu8MZA7DmRSezdg=
+
 parse-json@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-4.0.0.tgz#be35f5425be1f7f6c747184f98a788cb99477ee0"
@@ -2309,6 +2317,13 @@ rimraf@^2.6.1:
   integrity sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==
   dependencies:
     glob "^7.1.3"
+
+root-require@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/root-require/-/root-require-0.3.1.tgz#95e1554d63cc869a2abde3e3bfc9bbaaa1edacd3"
+  integrity sha1-leFVTWPMhpoqvePjv8m7qqHtrNM=
+  dependencies:
+    packpath "~0.1.0"
 
 run-async@^0.1.0:
   version "0.1.0"
@@ -2789,6 +2804,11 @@ uuid@^3.3.2:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
   integrity sha512-pW0No1RGHgzlpHJO1nsVrHKpOEIxkGg1xB+v0ZmdNH5OAeAwzAVrCnI2/6Mtx+Uys6iaylxa+D3g4j63IKKjSQ==
+
+uuid@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+  integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
 uws@10.148.1:
   version "10.148.1"
