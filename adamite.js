@@ -1,6 +1,7 @@
 module.exports = {
   api: {
-    key: "38c56577-a46c-4d22-83f4"
+    key: require("./data/api.json").key,
+    port: process.env.PORT ? parseInt(process.env.PORT) : 9000
   },
 
   services: [
