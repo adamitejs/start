@@ -4,9 +4,6 @@ services:
     build: .
     ports:
       - "9000:9000"
-      - "9001:9001"
-      - "9002:9002"
-      - "9003:9003"
     volumes:
       - .:/code
       - logvolume01:/var/log

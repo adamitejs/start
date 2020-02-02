@@ -7,12 +7,11 @@ WORKDIR /usr/src/app
 COPY package.json .
 COPY yarn.lock .
 
-RUN npm i -g yarn
 RUN yarn install
 
 # Bundle app source
 COPY . .
 
 ENV docker true
-EXPOSE 9000 9001 9002 9003
-CMD ["npx", "@adamite/cli", "start"]
+EXPOSE 9000
+CMD ["yarn", "start"]
