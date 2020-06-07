@@ -90,10 +90,10 @@
     lodash "^4.17.11"
     query-string "^6.12.1"
 
-"@adamite/service-auth@^0.1.0-beta.5":
-  version "0.1.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@adamite/service-auth/-/service-auth-0.1.0-beta.5.tgz#4e6bf6ecfaad47304d697df48f8a08293a7d9e0f"
-  integrity sha512-sw1liFqT9Geeqrd59Wg+i/W4MRJrjNrUE4tmvIIkja4qP79ySNIdu975uDo8mQrEjEnSYvAHM3VCqa5On7zTCQ==
+"@adamite/service-auth@^0.1.0-beta.6":
+  version "0.1.0-beta.6"
+  resolved "https://registry.yarnpkg.com/@adamite/service-auth/-/service-auth-0.1.0-beta.6.tgz#acc5870938af486bac5f1604dd8262f1bc006218"
+  integrity sha512-l4dBEVDFf2WmQt1duF60efnOaYmD7wk+tK7Yswf6PDFsqeI2S5L1YIPEAV/34Gr4MAQsNkusSCPrp4Sue3Qyjw==
   dependencies:
     "@adamite/relay-server" "^1.0.0-beta.0"
     "@adamite/sdk" "^0.1.0-beta.0"
