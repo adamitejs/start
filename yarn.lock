@@ -77,10 +77,10 @@
     jwt-decode "^2.2.0"
     lodash "^4.17.11"
 
-"@adamite/sdk@^0.2.0-beta.6":
-  version "0.2.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@adamite/sdk/-/sdk-0.2.0-beta.6.tgz#a0ed377ff37285615192ad010af02d465d1824fa"
-  integrity sha512-2I7huXUdsbNSLXQS9B8A3zkewjRWBCgADK84kf0xKZ6UNC6BnUg3wKVKjp1zacEuhlQELI0JCH1qAi0aODpp+w==
+"@adamite/sdk@^0.2.0-beta.7":
+  version "0.2.0-beta.7"
+  resolved "https://registry.yarnpkg.com/@adamite/sdk/-/sdk-0.2.0-beta.7.tgz#1e4dc01c4e7f5d14a92cd2fcd2ce4f402ba2a8da"
+  integrity sha512-xBvxoWa49/ihsCEpMHFA4jO8Kpmr7vijS2wnWnIUJfoxF5MybfQOl1R8/Nfq9SDzXp6Gxr5D4xp9MedK1mhGig==
   dependencies:
     "@adamite/relay-client" "^1.0.0-beta.1"
     "@types/jsonwebtoken" "^8.3.2"
